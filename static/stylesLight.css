@@ -1,0 +1,45 @@
+main {
+    max-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    padding-left: 0;
+    padding-top: 10%;
+}
+
+body {
+    margin: 0;
+    background-color: #F7F7F7;
+    color: #202226;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@media (max-width: 780px) {
+    main {
+        padding-top: 30%;
+    }
+}
+
+aside {
+    background-color: #045757;
+}
+
+aside a {
+    color: #202226;
+}
+
+hr {
+    border: 1px solid #202226;
+}
+
+.card {
+    border: 3px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 grey;
+}
+
+.box {
+    background-color: #FFFFFF;
+}

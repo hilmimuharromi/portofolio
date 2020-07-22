@@ -1,0 +1,64 @@
+main {
+    max-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    padding-left: 0;
+    padding-top: 10%;
+}
+
+body {
+    background-color: #222222;
+    color: #ececec;
+    margin: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@media (max-width: 780px) {
+    main {
+        padding-top: 30%;
+    }
+
+    .navbar {
+        background-color: #044343;
+    }
+}
+
+aside {
+    background-color: #044343;
+}
+
+aside a {
+    color: #ececec;
+}
+
+.open a {
+    color: black;
+}
+
+hr {
+    border: 1px solid #ececec;
+}
+
+.title-content {
+    color: rgb(238, 238, 238);
+}
+
+.card {
+    /* border: 3px solid #ececec; */
+    background-color: #161616;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 grey;
+}
+
+.box {
+    background-color: #161616;
+    color: rgb(238, 238, 238);
+}
+
+
+
+.layout-footer {
+    background-color: #161616;
+}
